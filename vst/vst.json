@@ -1,0 +1,23 @@
+{
+  "name": "Vibe FX",
+  "vendor": "nachtaktiv303",
+  "uid": "MtFx",
+  "version": 1000,
+  "so": "mpc_fx.so",
+  "effect": true,
+  "params": "params.json",
+  "layout": "layout.conf",
+  "art": "html",
+  "build": {
+    "root": "..",
+    "sources": [
+      "src/fx_engine.c",
+      "src/dsp/sat_c.c",
+      "src/dsp/chorus_c.c",
+      "src/dsp/reverb_c.c",
+      "src/dsp/delay_tape_c.c"
+    ],
+    "cflags": ["-DHAS_LFO_BPM=1"],
+    "libs": ["-lm"]
+  }
+}
