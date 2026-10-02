@@ -9,6 +9,8 @@ touchscreen pages.
 
 > Built with the [mpc-vst-plugins](https://github.com/sd88me/mpc-vst-plugins) porting kit.
 
+![Drive / Chorus page](preview_0.png)
+
 ## What's in it
 
 A fixed, musical signal chain (not freely routable — by design, so it fits one insert slot):
