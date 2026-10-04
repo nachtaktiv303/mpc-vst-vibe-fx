@@ -87,10 +87,10 @@ static float hp_warp(float u) {
  * boost that otherwise piled up the low end at feedback settings well under 50%.) */
 static float fb_curve(float disp) {
     /* The tape soft-clip in the feedback (x*(1.5-0.5x^2)) has a 1.5x gain for small signals, so the real
-     * loop gain is feedback*1.5. Cap the coefficient at 0.62 => loop gain ~0.93 < 1, i.e. the delay ALWAYS
-     * decays (long musical tails at the top, but never self-oscillates or runs away). Display is 0..100. */
-    float c = (disp / 100.0f) * 0.62f;
-    return c < 0.0f ? 0.0f : (c > 0.62f ? 0.62f : c);
+     * loop gain is feedback*1.5. Cap the coefficient at 0.66 => loop gain ~0.99, hard under the self-osc
+     * threshold 0.667: longer musical tails than 0.62 but still ALWAYS decays, never runs away. 0..100. */
+    float c = (disp / 100.0f) * 0.66f;
+    return c < 0.0f ? 0.0f : (c > 0.66f ? 0.66f : c);
 }
 
 /* delayTone is one bipolar knob: 0.5 = neutral, left half a low-pass (dark), right half a feedback
