@@ -29,6 +29,8 @@ IN → DRIVE → CHORUS → (dry) ─┬─→ REVERB × send ─┐
 Two touchscreen pages in the Mutable Instruments style — **DRIVE / CHORUS** and **REVERB / DELAY** —
 with a matching Q-Link map.
 
+![Reverb / Delay page](preview_1.png)
+
 ## Status
 
 **Tested only on the MPC One (1st generation / Gen1).** That is the single device it has run on so
