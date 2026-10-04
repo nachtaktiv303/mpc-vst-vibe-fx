@@ -7,6 +7,10 @@ Vibe FX is a VST2 multi-effect that runs **inside MPC OS** — no bridge, no bac
 a track as an insert; it turns with the Q-Links and saves with the project, with its own native MPC
 touchscreen pages.
 
+**The real star here is the reverb.** It's a lush, custom FDN hall tuned for depth and musicality —
+to our ears a genuinely *beautiful* space that sits better in a mix than the stock Reverb Pro. That
+tail is the reason Vibe FX exists; the drive, chorus and tape delay are the band around it. 😉
+
 > Built with the [mpc-vst-plugins](https://github.com/sd88me/mpc-vst-plugins) porting kit.
 
 ![Drive / Chorus page](preview_0.png)
@@ -22,7 +26,8 @@ IN → DRIVE → CHORUS → (dry) ─┬─→ REVERB × send ─┐
 
 - **Drive** — tape-style saturation front-end.
 - **Chorus** — Juno-style stereo BBD chorus (rate / depth / mix).
-- **Reverb** — FDN hall (decay, damping, high-pass, pre-delay) on its own send.
+- **Reverb** — the centrepiece: a beautiful custom FDN hall (decay, damping, high-pass, pre-delay) on
+  its own send, voiced to outshine the stock Reverb Pro.
 - **Tape delay** — free or tempo-synced (dotted divisions), bipolar tone (LP ↔ feedback HP),
   feedback with a safety cap, on its own send.
 
