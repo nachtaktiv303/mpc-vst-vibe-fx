@@ -14,7 +14,7 @@
     {"key": "delayFeedback",  "name": "FEEDBACK",  "min": 0.0, "max": 100.0,  "default": 40.0,  "display": "int"},
     {"key": "delayTone",      "name": "TONE",      "min": 0.0, "max": 1.0,    "default": 0.5,   "dynamic_display": true},
     {"key": "delaySend",      "name": "DLY SEND",  "min": 0.0, "max": 1.0,    "default": 0.0,   "dynamic_display": true},
-    {"key": "delaySync",      "name": "SYNC",      "options": ["FREE", "SYNC"], "default": "SYNC"},
+    {"key": "delaySync",      "name": "SYNC",      "options": ["FREE", "SYNC"], "default": "SYNC", "refresh_display": true},
     {"key": "delayDiv",       "name": "DIV",       "options": ["1/16", "1/8", "1/8.", "1/4", "1/4.", "1/2", "1"], "default": "1/4"}
   ]
 }
